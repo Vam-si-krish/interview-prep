@@ -1,0 +1,42 @@
+export const TOPICS = [
+  {
+    id: 'javascript', label: 'JavaScript', short: 'JS', emoji: '⚡',
+    color: '#fbbf24',
+    rgb: '251,191,36',
+    gradient: 'linear-gradient(135deg, #f59e0b, #d97706)',
+    glow: 'rgba(251,191,36,0.25)',
+    description: 'Closures, async, prototypes & more',
+  },
+  {
+    id: 'html', label: 'HTML', short: 'HTML', emoji: '🌐',
+    color: '#fb923c',
+    rgb: '251,146,60',
+    gradient: 'linear-gradient(135deg, #f97316, #ea580c)',
+    glow: 'rgba(251,146,60,0.25)',
+    description: 'Semantics, accessibility & APIs',
+  },
+  {
+    id: 'css', label: 'CSS', short: 'CSS', emoji: '🎨',
+    color: '#60a5fa',
+    rgb: '96,165,250',
+    gradient: 'linear-gradient(135deg, #3b82f6, #2563eb)',
+    glow: 'rgba(96,165,250,0.25)',
+    description: 'Flexbox, Grid, animations & more',
+  },
+  {
+    id: 'react', label: 'React', short: '⚛', emoji: '⚛️',
+    color: '#22d3ee',
+    rgb: '34,211,238',
+    gradient: 'linear-gradient(135deg, #06b6d4, #0891b2)',
+    glow: 'rgba(34,211,238,0.25)',
+    description: 'Hooks, state, rendering & patterns',
+  },
+  {
+    id: 'redux', label: 'Redux', short: '⊕', emoji: '🔄',
+    color: '#c084fc',
+    rgb: '192,132,252',
+    gradient: 'linear-gradient(135deg, #a855f7, #7c3aed)',
+    glow: 'rgba(192,132,252,0.25)',
+    description: 'Store, actions, middleware & RTK',
+  },
+]
